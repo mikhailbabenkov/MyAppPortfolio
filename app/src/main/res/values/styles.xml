@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+         <!--Customize your theme here. -->
+        <item name="android:buttonStyle">@style/AppTheme.MyButton</item>
+    </style>
+
+    <style name="AppTheme.MyButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/orange_button_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.MyTitleTextView" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:paddingBottom">@dimen/abc_action_bar_content_inset_material</item>
+    </style>
+</resources>
